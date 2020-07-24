@@ -62,21 +62,19 @@ ul {
 
 .header__inner {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header__logo {
   height: 72px;
-  margin-right: 1em;
   vertical-align: top;
-  margin-top: 12px;
 }
 
 .header__title {
   font-weight: 300;
-  font-size: 4em;
-  margin: 0.5em 0.25em;
+  font-size: 27px;
   display: inline-block;
   color: #212121;
 }
@@ -97,6 +95,8 @@ ul {
   width: 100%;
   padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 .nav__item {
@@ -105,8 +105,9 @@ ul {
   width: 24%;
   text-align: center;
   line-height: 24px;
-  padding: 24px;
+  padding: 24px 0px;
   text-transform: uppercase;
+  /* margin: 25px 0px; */
 }
 
 .nav a {
@@ -117,7 +118,7 @@ ul {
 
 .nav a:hover {
   text-decoration: underline;
-  color: #212121;
+  color: #0a0797;
 }
 
 /*
@@ -277,8 +278,15 @@ main {
 }
 
 .weather__today {
-  width: 60%;
-  vertical-align: middle;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  align-items: center;
+  border: solid 1px rgb(227 224 224);
+  border-radius: 10px;
 }
 
 .weather__today__image {
@@ -358,11 +366,16 @@ footer {
 
 footer li {
   display: inline-block;
-  margin: 0 1em;
 }
 
 footer a {
   text-decoration: none;
   color: #333;
   padding: 1.5em;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
