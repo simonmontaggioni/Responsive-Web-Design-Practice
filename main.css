@@ -63,13 +63,13 @@ ul {
 .header__inner {
   width: 100%;
   display: flex;
-  justify-content: center;
+  /*   justify-content: space-between; */
   align-items: center;
 }
 
 .header__logo {
   height: 72px;
-  vertical-align: top;
+  /* vertical-align: top; */
 }
 
 .header__title {
@@ -227,6 +227,7 @@ main {
 .scores__table th,
 .scores__table td {
   padding: 1em;
+  text-align: center;
 }
 
 .scores__table th {
@@ -378,4 +379,10 @@ footer ul {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+@media screen and (min-width: 360px) {
+  .header__title {
+    margin: auto;
+  }
 }
