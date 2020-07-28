@@ -1,0 +1,80 @@
+@media screen and (min-width: 760px) {
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header__title {
+    margin: auto;
+    font-size: 2.5rem;
+  }
+
+  .nav {
+    background-color: rgb(240, 240, 240, 27%);
+    font-size: 15px;
+  }
+
+  .hero {
+    order: 0;
+    width: 65%;
+  }
+
+  .top-news {
+    order: 2;
+    position: relative;
+    width: 55%;
+    margin: 0px auto;
+    border-bottom: none;
+    border-right: 1px solid #e0e0e0;
+    padding-right: 25px;
+  }
+
+  .scores {
+    order: 3;
+    width: auto;
+    margin: 0px auto;
+  }
+
+  .weather {
+    order: 1;
+    width: 35%;
+    border-bottom: solid 0.5px rgb(231 222 222);
+  }
+
+  .weather__today {
+    width: 80%;
+    height: 36%;
+    margin: 15px auto;
+    align-items: center;
+    border: solid 1px rgb(227 224 224);
+    border-radius: 10px;
+  }
+
+  .weather__next__image {
+    width: 80%;
+  }
+
+  .recent-news {
+    order: 4;
+  }
+
+  .recent-news .news__title {
+    border-top: solid 1px rgb(252 245 245);
+    margin-top: 10px;
+    padding-top: 5px;
+  }
+
+  .recent-news ul {
+    padding: 0px 40px;
+    font-size: 14px;
+  }
+
+  .recent-news li p {
+    line-height: 20px;
+  }
+
+  footer {
+    background-color: rgb(240, 240, 240, 27%);
+    padding: 20px;
+    font-size: 20px;
+  }
+}

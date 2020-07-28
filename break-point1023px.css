@@ -1,0 +1,50 @@
+@media screen and (min-width: 1023px) {
+  main {
+    box-shadow: 10px 0px 50px rgba(0, 0, 0, 0.26);
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .header {
+    width: 90%;
+    margin: auto auto;
+  }
+
+  .nav {
+    width: 90%;
+    margin: auto auto;
+  }
+
+  .hero {
+    height: 350px;
+  }
+
+  .weather {
+    height: 350px;
+  }
+
+  .scores {
+    width: 45%;
+  }
+
+  .top-news ul {
+    font-size: 16px;
+  }
+
+  .recent-news .news__title {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .recent-news ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .recent-news li {
+    width: 40%;
+    margin: 20px;
+    font-size: 16px;
+  }
+}
